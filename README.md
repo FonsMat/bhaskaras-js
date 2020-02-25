@@ -17,3 +17,4 @@ delta negative:
 delta positive:
 
 ![Screenshot3](https://github.com/FonsMat123/bhaskaras-js/blob/master/delta%20positive.png)
+
