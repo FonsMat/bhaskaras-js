@@ -8,13 +8,13 @@ Screenshots:
 
 normal:
 
-![Screenshot1](https://github.com/FonsMat123/bhaskaras-js/blob/master/Anota%C3%A7%C3%A3o%202020-02-25%20122840.png)
+![Screenshot1](https://github.com/FonsMat123/bhaskaras-js/blob/master/img/normal.png)
 
 delta negative:
 
-![Screenshot2](https://github.com/FonsMat123/bhaskaras-js/blob/master/delta%20negative.png)
+![Screenshot2](https://github.com/FonsMat123/bhaskaras-js/blob/master/img/delta%20negative.png)
 
 delta positive:
 
-![Screenshot3](https://github.com/FonsMat123/bhaskaras-js/blob/master/delta%20positive.png)
+![Screenshot3](https://github.com/FonsMat123/bhaskaras-js/blob/master/img/delta%20positive.png)
 
