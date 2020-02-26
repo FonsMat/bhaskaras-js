@@ -18,12 +18,12 @@ function btnclick(){
     
     //show equation:
 
-    eq.innerText = `${a}x² ${b}x ${c} = 0`
+    eq.innerText = `(${a}x²) + (${b}x) + (${c}) = 0`
     
     //show delta:
 
     var delta = b**2 - 4 * a * c
-    deltares.innerHTML = `<div id='deltares'>&Delta; é igual ${delta}</div>`
+    deltares.innerHTML = `<div id='deltares'>&Delta; = ${delta}</div>`
 
     if (delta < 0){
 
