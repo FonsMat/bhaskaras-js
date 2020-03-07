@@ -36,8 +36,8 @@ function btnclick(){
         
         //show x1 and x2:
 
-        var x1 = x.toString()+" + " + x11.toString() + "i"
-        var x2 = x.toString()+" - " + x11.toString() + "i"
+        var x1 = String(x) + ' + ' + String(x11) + 'i'
+        var x2 = String(x) + ' - ' + String(x11) + 'i'
 
         x1res.innerText = `x1 = ${x1}`
         x2res.innerText = `x2 = ${x2}`
@@ -47,12 +47,14 @@ function btnclick(){
         //making normal bhaskaras, because delta is positive:
 
         var x1 = (0 - b + Math.sqrt(delta)) / (2 * a)
+        var xi = x1.toFixed(3)
         var x2 = (0 - b - Math.sqrt(delta)) / (2 * a)
+        var xii = x2.toFixed(3)
 
         //to appear x1 and x2:
         
-        x1res.innerText = `x1 = ${x1}`
-        x2res.innerText = `x2 = ${x2}`
+        x1res.innerText = `x1 = ${xi}`
+        x2res.innerText = `x2 = ${xii}`
     }
 }
         
