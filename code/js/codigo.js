@@ -1,20 +1,20 @@
 //pegando elementos do HTML
 
-var lbl1 = window.document.getElementById('lbl1')
-var lbl2 = window.document.getElementById('lbl2')
-var lbl3 = window.document.getElementById('lbl3')
-var eq = window.document.getElementById('eq')
-var deltares = window.document.getElementById('deltares')
-var x1res = window.document.getElementById('x1res')
-var x2res = window.document.getElementById('x2res')
+const lbl1 = window.document.getElementById('lbl1')
+const lbl2 = window.document.getElementById('lbl2')
+const lbl3 = window.document.getElementById('lbl3')
+const eq = window.document.getElementById('eq')
+const deltares = window.document.getElementById('deltares')
+const x1res = window.document.getElementById('x1res')
+const x2res = window.document.getElementById('x2res')
 
 function btnclick(){
 
     //converting to number:
 
-    var a = Number(lbl1.value)
-    var b = Number(lbl2.value)
-    var c = Number(lbl3.value)
+    const a = Number(lbl1.value)
+    const b = Number(lbl2.value)
+    const c = Number(lbl3.value)
     
     //show equation:
 
@@ -22,22 +22,22 @@ function btnclick(){
     
     //show delta:
 
-    var delta = b**2 - 4 * a * c
+    const delta = b**2 - 4 * a * c
     deltares.innerHTML = `<div id='deltares'>&Delta; = ${delta}</div>`
 
     if (delta < 0){
 
         //like delta is negative, this happens:
 
-        var x = (0-b)/(2*a)
+        let x = (0-b)/(2*a)
         x = x.toFixed(3)
-        var x11 =(Math.sqrt(0 - delta))/(2*a)
+        let x11 =(Math.sqrt(0 - delta))/(2*a)
         x11 = x11.toFixed(3)
         
         //show x1 and x2:
 
-        var x1 = String(x) + ' + ' + String(x11) + 'i'
-        var x2 = String(x) + ' - ' + String(x11) + 'i'
+        const x1 = String(x) + ' + ' + String(x11) + 'i'
+        const x2 = String(x) + ' - ' + String(x11) + 'i'
 
         x1res.innerText = `x1 = ${x1}`
         x2res.innerText = `x2 = ${x2}`
@@ -46,10 +46,10 @@ function btnclick(){
 
         //making normal bhaskaras, because delta is positive:
 
-        var x1 = (0 - b + Math.sqrt(delta)) / (2 * a)
-        var xi = x1.toFixed(3)
-        var x2 = (0 - b - Math.sqrt(delta)) / (2 * a)
-        var xii = x2.toFixed(3)
+        const x1 = (0 - b + Math.sqrt(delta)) / (2 * a)
+        const xi = x1.toFixed(3)
+        const x2 = (0 - b - Math.sqrt(delta)) / (2 * a)
+        const xii = x2.toFixed(3)
 
         //to appear x1 and x2:
         
