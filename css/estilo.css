@@ -51,7 +51,7 @@ input#btn:hover{
     background: #0eeeba;
     color: black;
 }
-div#deltares, div#x1res, div#x2res{
+div#deltaRes, div#x1res, div#x2res{
     margin: 5px;
 }
 div#credits {
