@@ -15,7 +15,7 @@ body {
     background: #202020;
     text-align: center;
 }
-input#lbl1, input#lbl2, input#lbl3 {
+input#txtA, input#txtB, input#txtC {
     border: 0;
     background: none;
     display: block;
@@ -29,7 +29,7 @@ input#lbl1, input#lbl2, input#lbl3 {
     color: white;
     transition: 0.25s;
 }
-input#lbl1:focus, input#lbl2:focus, input#lbl3:focus {
+input#txtA:focus, input#txtB:focus, input#lbl3:focus {
     border-color: #0eeeba;
     width: 150px;
 }
