@@ -54,3 +54,7 @@ input#btn:hover{
 div#deltares, div#x1res, div#x2res{
     margin: 5px;
 }
+div#credits {
+    font-size: 10pt;
+    text-align: center;
+}
