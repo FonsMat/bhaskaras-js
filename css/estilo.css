@@ -29,7 +29,7 @@ input#txtA, input#txtB, input#txtC {
     color: white;
     transition: 0.25s;
 }
-input#txtA:focus, input#txtB:focus, input#lbl3:focus {
+input#txtA:focus, input#txtB:focus, input#txtC:focus {
     border-color: #0eeeba;
     width: 150px;
 }
