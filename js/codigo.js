@@ -1,11 +1,5 @@
 const txtA = document.getElementById('txtA'), txtB = document.getElementById('txtB'), txtC = document.getElementById('txtC'), eq = document.getElementById('eq'), deltaRes = document.getElementById('deltaRes'), x1res = document.getElementById('x1res'), x2res = document.getElementById('x2res'), body = document.getElementById('body');
-/*if(isNaN(txtA)||isNaN(txtB)||isNaN(txtC)){
-    eq.style.color = 'red';
-    eq.innerText = `[ERROR] YOU DON'T TYPE A NUMBER, YOU BROKE IT!!`;
-    deltaRes.innerText = '';
-    x1res.innerText = '';
-    x2res.innerText = ''
-}*/
+
 function buttonCalculate(){
 
     if(txtA.value.length == 0 || txtB.value.length == 0 || txtC.value.length == 0){
